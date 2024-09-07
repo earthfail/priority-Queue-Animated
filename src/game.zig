@@ -76,7 +76,7 @@ const AnimationStrech = struct {
 };
 const left_arrow_direction: c.Vector2 = c.Vector2{ .x = -50, .y = 50 };
 const right_arrow_direction: c.Vector2 = c.Vector2{ .x = 50, .y = 50 };
-const screen_w = 1200;
+const screen_w = 1000;
 const screen_h = 600;
 var rand: std.Random = undefined;
 

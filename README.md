@@ -1,12 +1,16 @@
-Exploring raylib and zig with hotreloading and build.zig. `raylib-c`
-contains source files of raylib with small modification of
-`raylib-c/src/build.zig` to export shared library instead of static
-one. There is also the option of using build.zig.zon by:
+# Simple animation of priority Queue
+![Demo](./2024-09-07 21-44-08.gif)
+# Plan
+- add animation for deleting a node
+- incorporate huffman encoding
+- improve ui and support keyboard
+# Installation
+first we need zig, you can find it on
+[ziglang](https://ziglang.org/). Second we need raylib, a graphics library:
 1. `zig fetch --save=raylib
    https://github.com/raysan5/raylib/archive/<hash>.tar.gz` and
    replace with appropriate hash
 2. add the following to `build.zig`:
-
 ``` zig
 const raylib_dep = b.dependency("raylib", .{
     .target = target,

@@ -8,8 +8,8 @@ const ray = @cImport({
     @cInclude("rlgl.h");
 });
 
-const screen_w = 1200;
-const screen_h = 600;
+const screen_w = 1092;
+const screen_h = 603;
 
 const GameStatePtr = *anyopaque;
 
