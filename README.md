@@ -1,5 +1,5 @@
 # Simple animation of priority Queue (min heap)
-![Demo](./2024-09-0721-44-08.mkv)
+![Demo](./demo.gif)
 # Plan
 - add animation for deleting a node
 - incorporate huffman encoding
