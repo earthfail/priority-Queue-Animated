@@ -1,5 +1,5 @@
 # Simple animation of priority Queue
-![Demo](./2024-09-07 21-44-08.gif)
+![Demo](./2024-09-0721-44-08.gif)
 # Plan
 - add animation for deleting a node
 - incorporate huffman encoding
